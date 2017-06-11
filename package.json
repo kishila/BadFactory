@@ -1,0 +1,39 @@
+{
+  "name": "BadFactory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "electron": "electron ./main.electron.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishila/BadFactory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishila/BadFactory/issues"
+  },
+  "homepage": "https://github.com/kishila/BadFactory#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.8",
+    "expect": "^1.20.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^1.3.1",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-livereload-plugin": "^0.10.0"
+  }
+}
