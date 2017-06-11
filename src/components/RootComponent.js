@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Hello from './HelloComponent';
+import Source from './SourceInput';
 
 class RootComponent extends Component {
   render() {
     return (
       <div>
-        <Hello/>
+        <Source/>
       </div>
     );
   }
