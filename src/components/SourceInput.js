@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+//import { ipcRenderer } from 'electron';
+//import electron from 'electron';
 
 class SourceInput extends Component {
   constructor(props) {
