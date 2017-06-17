@@ -6,6 +6,7 @@ module.exports = {
     path: __dirname+"/dist",
     filename: "app.js"
   },
+  target: "node",
   module: {
     loaders: [
       {
