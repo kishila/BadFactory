@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch",
-    "electron": "electron ./main.electron.js"
+    "electron": "electron ./main.electron.js",
+    "package-linux": "electron-packager ./ BadFactory --platform=linux --arch=x64",
+    "package-linux": "electron-packager ./ BadFactory --platform=win32 --arch=x64"
   },
   "repository": {
     "type": "git",
